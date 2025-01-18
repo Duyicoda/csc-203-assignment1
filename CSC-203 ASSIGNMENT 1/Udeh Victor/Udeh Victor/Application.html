@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Application Form</title>
+    <link rel="stylesheet" href="external.css">
+    <link rel="shortcut icon" href="images/bells uni logo.jfif" type="image/x-icon">
+</head>
+<body>
+    <img src="images/bells uni logo.jfif" width="150px" height="135px" alt="School logo">
+    <div class="header">
+            <h1>The Bells University</h1>
+            <h2>Staff application form</h2>                 
+    </div>
+    <form>
+        <div class="form-group">
+                <label for="Full name">Full-Names</label>
+                <input id="name" type="text" placeholder="Input Full-Name" required>
+        </div>
+        <div class="form-group">
+                <label for="email" >E-mail Address</label>
+                <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+        </div>
+        <div>
+                <label for="Phone-Number">Phone-Number</label>
+                <input type="tel" id="Phone-Number" name="Phone-Number" placeholder="Phone-Number" required>
+        </div>
+        <div class="form-group">
+                <label for ="address">Address</label>
+                <textarea id="address" name="address" rows="2"></textarea>
+        </div>
+        <div>
+            
+             <label for="Gender">Gender</label>
+             <label>
+                <input checked type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female" required>Female
+            
+                
+                
+             </label>
+             </div>
+              <div class="form-group">
+                <label for="Dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                 </div>
+                 <!-- Qualifications -->
+                  <div class="form-group">
+                        <label for="qualification">Qualification</label>
+                        <select id="qualification" name="qualification" required>
+                                        <option value=""disabled selected>Select</option>
+                                        <option value="High-School">High-School</option>
+                                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                                        <option for="Masters">Masters</option>
+                                        <option for="phd">PhD</option>
+                        </select>
+                        
+                  </div>
+                  <!-- Work Experience -->
+                  <div class="form-group">
+                        <label for="Experience">Work Experience(Years)</label>
+                        <input type="number" id="Experience" name="Experience" min="0" max="10">
+                </div>
+                <!-- Resume Upload -->
+                 <div class="form-group">
+                        <label for="Resume">Upload Resume</label>
+                        <input type="file" id="resume"
+                        name="resume" accept=".pdf, .doc, .docx">
+                 </div>
+                  </div class="health">
+                  <label for="health condition">Health Condition</label>
+                  <input type="text" id="health condition" name="health" placeholder="If any(Specify)">
+
+                  <fieldset>
+                        <legend>Submit your application</legend>
+                        <button type="submit">Submit Form</button>
+                </fieldset>
+                </div>          
+                
+        </form>
+      
+
+        
+    
+</body>
+</html>

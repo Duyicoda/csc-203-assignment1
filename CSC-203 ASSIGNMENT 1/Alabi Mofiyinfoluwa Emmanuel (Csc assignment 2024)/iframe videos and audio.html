@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Embedding Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #d4e4d6;
+        }
+        h1 {
+            text-align: center;
+        }
+        .media-container {
+            margin: 20px 0;
+        }
+        video, audio {
+            display: block;
+            margin: 10px auto;
+            width: 80%;
+        }
+        img {
+            display: block;
+            margin: 10px auto;
+            max-width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pictures and videos of my favourite music artist </h1>
+
+    <div class="media-container">
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fnlJw9H0xAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fnlJw9H0xAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </video>
+    </div>
+
+    <div class="media-container">
+        <h2>Audios</h2>
+        <audio controls>
+            <source src="/Users/home/Documents/html/NF-MOTTO-(HipHopKit.com).mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <audio controls>
+            <source src="/Users/home/Documents/html/NF-RUNNING-(HipHopKit.com).mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+
+    <div class="media-container">
+        <h2>Images</h2>
+        <img src="/Users/home/Documents/nf.jpeg" alt="NF rapping">
+        <img src="https://i.scdn.co/image/ab6761610000e5eb1cf142a710a2f3d9b7a62da1" alt="Nf in white">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+video{
+  padding: 20px;
+  width: 20%;
+  float: left;
+}
+
+audio{
+  padding: 20px;
+  width: 20%;
+  float: left;
+}
+
+iframe{
+  padding: 20px;
+  width: 20%;
+  float: left;
+}
+
+@media (max-width: 760px) {
+  video{
+    width: 100%;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  audio{
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+}
+.bg-black{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1,h2 {
+    text-align: center;
+    color: #333;
+}
+fieldset{
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.company-color{
+    color: lightblue;
+}
+
+legend{
+    font-weight: bold;
+    padding: 0 10px;
+}
+label{
+    display: block;
+    margin: 5px 0 5px;
+}

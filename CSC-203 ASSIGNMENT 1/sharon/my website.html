@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 10px;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header ul li {
+        margin-right: 20px;
+    }
+
+    #home {
+        background-image: linear-gradient(to bottom, #333, #555);
+        background-size: 60% 30px;
+        background-position: 0% 90%;
+        height: 500%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    #services {
+        padding: 2em;
+    }
+
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service {
+        margin: 1em;
+        padding: 1em;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: calc(33.33% - 2em);
+    }
+
+    #about {
+        padding: 2em;
+        text-align: center;
+    }
+
+    #contact {
+        padding: 2em;
+        margin-right: 70%;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 1px;
+        margin-bottom: 10p;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        background-color: #333;
+        color: #fff;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+    }
+    </style>
+</head><fieldset>
+<body>
+    <header>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Your Beauty salon</h1>
+    </section>
+
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            <div class="service">
+                <h2>Hair beautifying</h2>
+                <p>We make sure to give you high hair quality to your taste.</p>
+            </div>
+            <div class="service">
+                <h2>Manicure and Pedicure</h2>
+                <p>You can't have a pretty hair and your nails is an eyesore... I don't need to tell you what to do</p>
+            </div>
+            <div class="service">
+                <h2>Skincare</h2>
+                <p>YES.. We do everything so come get your skin and face cared for.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Just like the name of our company we are very concerned with your beauty.</p> <p>Not females alone, males can be cared for... So come and take care of yourself and your beauty</p>
+    </section>
+
+    <section id="contact">
+        <h1>Get in Touch</h1>
+        <h3>Call us- 09039309100</h3>
+        <form>
+            <textarea placeholder="Message"></textarea>
+            <button>Send a Message</button>
+        </form>
+    </section>
+</body></fieldset>
+</html>
+

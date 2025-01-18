@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Application Form</title>
+    <h2>Application Form</h2>
+</head>
+<body>
+    <form>
+        
+      
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+      
+        <!-- Date Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+      
+        <!-- Number Input -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+      
+        <!-- Radio Input -->
+        <label>Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+        <br><br>
+      
+        <!-- Checkbox Input -->
+        <label>Interests:</label>
+        <br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br>
+        <input type="checkbox" id="writing" name="interests" value="writing">
+        <label for="writing">Writing</label>
+        <br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <br><br>
+      
+        <!-- Dropdown Input -->
+        <label>Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select Country</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">UK</option>
+        </select>
+        <br><br>
+      
+        <!-- Textarea Input -->
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" required></textarea>
+        <br><br>
+      
+        <!-- File Input -->
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume" required>
+        <br><br>
+      
+        <!-- Hidden Input -->
+        <input type="hidden" id="source" name="source" value="online_form">
+      
+        <!-- Submit Button -->
+        <input type="submit" value="Submit Application">
+      </form>
+      
+</body>
+</html>

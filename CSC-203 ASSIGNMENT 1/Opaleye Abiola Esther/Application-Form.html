@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Long Application Form</title>
+    <link rel="stylesheet" href="Application.css">
+</head>
+<body>
+    <h1>Application Form</h2>
+    <form action="/submit_form" method="post">
+        <!-- Personal Information Section -->
+        <h3>Personal Information</h3>
+
+        <div class="name">
+            <label for="first_name"><b>First Name:</b></label>
+            <input type="text" id="first_name" name="first_name" required>
+    
+            <label for="last_name"><b>Last Name:</b></label>
+            <input type="text" id="last_name" name="last_name" required> <br>
+        </div>
+        
+        <div class="email">
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required><br>
+        </div>
+
+        <div>
+            <label for="phone"><b>Phone:</b></label>
+            <input type="tel" id="phone" name="phone"><br><br>
+        </div>
+
+       <div class="add">
+        <label for="address"><b>Address:</b></label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+       </div>
+
+        <div class="date">
+            <label for="dob"><b>Date of Birth:</b></label>
+        <input type="date" id="dob" name="dob"> <br>
+        </div>
+
+        <div class="sex">
+            <label for="status"><b>Marital Status</b></label><br>
+            <input type="checkbox" id="Single" name="Single">
+            <input type="text" id="single2" name="single2" placeholder="Single">
+            <input type="checkbox" id="Married" name="Married">
+            <input type="text" id="married1" name="married1" placeholder="Married">
+    
+        </div>
+
+        <div class="states">
+            <select name="states" id="states">
+              <option value="">Select a states</option>
+              <option value="abj">FCT</option>
+              <option value="ikeja">Lagos</option>
+              <option value="abk">Ogun</option>
+              <option value="oyo">Ibadan</option>
+              <option value="uyo">Akwa-ibom</option>
+              <option value="cal">Cross-River</option>
+            </select>
+          </div>
+
+          <div class="country">
+            <label for="country"><b>Nationality</b></label>
+            <input type="text" placeholder="">
+          </div>
+
+          <button class="sign">Submit</button>
+
+        </body>
+        </html>

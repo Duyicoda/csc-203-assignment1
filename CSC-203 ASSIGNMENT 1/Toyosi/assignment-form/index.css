@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hi{
+    /* margin-top: 75px;!important */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px 490px;
+    h1{
+        text-transform: uppercase;
+        font-family: serif;
+        color: black;
+        text-align: center;
+
+    }
+
+  
+}
+.section{
+    margin-bottom: 10px;
+    padding: 5px;
+    input{
+        padding: 13px;
+        border: none;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        
+    }
+    
+    
+}
+input:focus{
+    outline: none;
+}
+.section-p{
+    display: flex;
+}
